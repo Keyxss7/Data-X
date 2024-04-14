@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;   
+    background-color: #bfadff;
+}
+    
+.logo {
+    width: 200px; /* Ajustez la largeur du logo selon vos besoins */
+    height: auto;
+    position: auto;
+    top: 20px;
+    left: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 60px; /* Ajouter un peu de marge supérieure */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 29px; /* Augmente la taille du texte */
+    border: none; /* Supprime la bordure */
+    padding: 10px 20px; /* Augmente l'espacement intérieur */
+}
+
+.navbar nav ul li a:hover {
+    color: #2f00ff; /* Change la couleur du texte au survol */
+}
+
+.navbar.fixed-top {
+    transition: top 0.3s;
+    top: -56px;
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+}
+
+.navbar.fixed-top.show {
+    top: 0;
+}
+
+.navbar.fixed-top {
+    transition: top 0.3s;
+    top: -20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+}
+
+.navbar.fixed-top.show {
+    top: 0;
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 12px; /* Définissez la taille de la police selon vos besoins */
+}
+
+
+body {
+    padding-top: 500px; /* Adjust this value according to the height of your navbar */
+}
+
+
+.container{
+    max-width: 1700px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.header-section{
+    margin-top: -20px;
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #c2b7e9;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer span {
+    margin-left: 10px;
+}
+
+footer span a {
+    color: #030101;
+}
+
+footer span a:hover {
+    text-decoration: none;
+}
+
+.text-container {
+    margin-top: 200px; /* Ajouter un peu d'espace au-dessus du texte */
+    margin-left: auto; /* Aligner à droite */
+    margin-right: auto; /* Aligner à gauche */
+    margin-bottom: 10px;
+    max-width: 900px; /* Largeur maximale du texte */
+    padding-left: 20px; /* Marge à gauche */
+    padding-right: 20px; /* Marge à droite */
+    padding-bottom: 60px;
+    transition: margin-top 0.3s; /* Ajouter une transition pour l'animation */
+}
+
+.menu-open .text-container {
+    margin-top: 400px; /* Ajustez cette valeur selon vos besoins */
+}
+
+
+.hidden {
+    display: none; /* Masquer le footer par défaut */
+}
+
+h1 {
+    text-align: center; /* Centrer le texte */
+    margin-top: 50px; /* Ajouter un espace au-dessus du titre */
+}
+
+.bot-section,
+.project-section,
+.ambitions-section {
+    padding: 20px; /* Ajoute un espacement intérieur de 20px */
+    border-radius: 10px; /* Ajoute un rayon de bordure de 10px pour rendre les coins plus arrondis */
+    margin-bottom: 30px; /* Ajoute un espace en bas de chaque section */
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0.1) 100%); /* Ajoute un dégradé pour l'effet 3D */
+    margin-right: 30px;
+}
+
+.bot-section {
+    border-top: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 en haut */
+    border-left: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 à gauche */
+    border-right: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 à droite */
+    border-bottom: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 en bas */
+}
+
+.project-section {
+    border-top: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 en haut */
+    border-left: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 à gauche */
+    border-right: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 à droite */
+    border-bottom: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 en bas */
+}
+
+.ambitions-section {
+    border-top: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 en haut */
+    border-left: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 à gauche */
+    border-right: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 à droite */
+    border-bottom: 4px solid #333; /* Ajoute une bordure de 4px solide avec la couleur #333 en bas */
+}
